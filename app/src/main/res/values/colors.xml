@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="toolbar">#286947</color>
+    <color name="card_bg">#12B422CE</color>
+    <color name="button1">#E4EBF3</color>
+    <color name="effect">#50286947</color>
+    <color name="view_color">#D8848A9D</color>
+    <color name="main_bg">#f9f9f9</color>
+    <color name="recycle_bg">#ffffff</color>
+    <color name="text_color">#000000</color>
+    <color name="primary_dark">#454444</color>
+    <color name="red">#DD2C00</color>
+</resources>

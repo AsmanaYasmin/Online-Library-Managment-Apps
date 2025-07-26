@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/_20sdp"
+    tools:ignore="MissingClass">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/pageInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="পৃষ্ঠা নম্বর লিখুন"
+        app:boxBackgroundMode="outline"
+        app:boxStrokeColor="@color/view_color">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etPageNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/tvTotalPages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:text="(মোট: ১২৩ পৃষ্ঠা)"
+        android:textColor="@color/view_color"
+        android:textSize="@dimen/_14ssp" />
+</LinearLayout>
